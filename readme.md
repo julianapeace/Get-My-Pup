@@ -10,6 +10,24 @@
 ### [Gustavo Martinez](https://github.com/gmartinez31)
 
 ---------
+# Tech Stack
+- Python 3.6
+- Tornado Web Framework
+- MongoDB
+- OAuth Login
+
+---------
+
+# Installation Instructions
+1. git clone repository
+2. `cd Get-My-Pup`
+3. Install dependencies: `pip install -r requirements.txt`
+4. Environment Variables you will need to get:
+... MongoDB connection URI
+... Google Oauth Credentials
+5. Run App: `python3 app.py`
+
+---------
 
 ### Summary
 Houston's animal rescue organizations are overwhelmed by a large number of incoming lost/stray animals. All shelters triage their incoming animals into their own proprietary internal database.
@@ -34,17 +52,17 @@ This project aims to unify Houston's animal database into one powerful tool that
 
 
 ## KEY FEATURES
-- [x]Three User Types: 'Not Set', 'Owner', 'Shelter'
+- [x] Three User Types: 'Not Set', 'Owner', 'Shelter'
 Shelters have admin privileges like Add/Delete/Edit/Mass-delete dogs. Owners can only query. 'Not Set' can only view dog database.
-- [x]A record of deleted animals can be exported into a CSV
-- [x]A function to add 100 dogs to the database including AI sentence generation
-- [x]Notifications when dogs are found
-- [x]Secure authentication
-- [x]Multi-part form entry for simple usability
+- [x] A record of deleted animals can be exported into a CSV
+- [x] A function to add 100 dogs to the database including AI sentence generation
+- [x] Notifications when dogs are found
+- [x] Secure authentication
+- [x] Multi-part form entry for simple usability
 
 --------
 ## Developer Notes
-### Group Project Week: October 16-25
+### Group Project Week: October 16, 2017 - October 25,2017
 
 ## What your project does?
 Our project is the solution to answer Houston's currently fragmented animal databases.
@@ -63,4 +81,5 @@ We're really impressed with how incredibly filled out their idea became. We star
 And we created a pretty expansive user level system! Users need to have certain credentials to be able to delete dogs or access admin pages (like export to csv/ view all users/ add a shelter)
 
 We can pre-populate the entire database with auto-generators. With one command, we can load hundreds of dogs with pseudo-profiles and AI generated sentences!
+
 ------
